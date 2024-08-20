@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Page</title>
+</head>
+<body>
+    <form>
+        <label for="firstname">firstname:</label>
+        <input type="text" name="firstname" required>
+        <br><br>
+        <label for="lastname">lastname:</label>
+        <input type="text" name="lastname" required>
+        <br><br>
+        <label for="email">email:</label>
+        <input type="email" name="email" required>
+        <br><br>
+        <label for="password">password:</label>
+        <input type="password" name="password" required>
+        <br><br>
+        <input type="submit" value="Login">
+    </form>
+    <br><br>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" name="name"><br><br>
+        <label for="sex">Sex</label>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="Sex" id="female" value="female" disabled>
+        <label for="female">female</label><br><br>
+
+        <label for="country">country</label>
+        <select name="country" id="country">
+            <option>Select on option</option>
+            <option value="nepal">nepal</option>
+            <option value="usa">USA</option>
+            <option value="australia"> australia</option><br><br>
+        </select>
+    </form>
+</body>
+</html>
