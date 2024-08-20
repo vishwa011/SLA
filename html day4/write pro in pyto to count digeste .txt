@@ -1,0 +1,2 @@
+write pro in pyto to count digeste  in a number
+se 11 

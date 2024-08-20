@@ -1,0 +1,11 @@
+def count_digits(number):
+    number_str = str(abs(number))
+    digit_count = len(number_str)  
+    
+    return digit_count
+
+number = 12345
+print(f"The number {number} has {count_digits(number)} digits.")
+
+number = -987654
+print(f"The number {number} has {count_digits(number)} digits.")
