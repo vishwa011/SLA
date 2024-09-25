@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Myfirstprogram {
+module PracticeCodes {
 }
