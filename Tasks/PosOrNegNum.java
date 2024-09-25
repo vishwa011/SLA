@@ -16,6 +16,8 @@ public class PosOrNegNum {
 		}
 		else if(a<0){
 			System.out.println("Negative number");
+			
+			obj.close();
 		}
 		
 	}
